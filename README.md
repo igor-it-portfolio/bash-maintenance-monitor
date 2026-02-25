@@ -1,4 +1,4 @@
-# Kit de Scripts para SysAdmin
+# Bash Maintenance & Monitoring Framework
 
 Este projeto reúne scripts em Bash desenvolvidos para
 automatizar tarefas comuns de administração de sistemas Linux.
