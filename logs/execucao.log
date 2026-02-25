@@ -1,0 +1,40 @@
+----------------------------------------------------
+[2026-02-25 23:20:17] Iniciando verificação de rotina (Framework Mode)...
+[2026-02-25 23:20:17] [OK] Disco operando em níveis normais: 37%
+[2026-02-25 23:20:17] [OK] Conectividade com 8.8.8.8 confirmada.
+[2026-02-25 23:20:17] Monitoramento finalizado.
+----------------------------------------------------
+====================================================
+[2026-02-25 23:23:10] [MANUTENÇÃO] Iniciando rotina de limpeza e organização...
+[2026-02-25 23:23:10] [MANUTENÇÃO] Removendo logs e backups com mais de 7 dias em /home/ubuntu/Linux-System-Admin/logs...
+[2026-02-25 23:23:10] [MANUTENÇÃO] Tamanho atual do arquivo de log principal: 4.0K
+[2026-02-25 23:23:10] [MANUTENÇÃO] Manutenção finalizada com sucesso.
+====================================================
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-02-25 23:25:41] [AUDITORIA] Iniciando Auditoria de Integridade do Sistema...
+[2026-02-25 23:25:41] [AUDITORIA] [OK] Diretório verificado: /home/ubuntu/Linux-System-Admin/logs
+[2026-02-25 23:25:41] [AUDITORIA] [OK] Diretório verificado: /home/ubuntu/Linux-System-Admin/backups
+[2026-02-25 23:25:41] [AUDITORIA] [OK] Diretório verificado: /home/ubuntu/Linux-System-Admin/scripts
+[2026-02-25 23:25:41] [AUDITORIA] Verificando permissões dos scripts...
+[2026-02-25 23:25:41] [AUDITORIA] [OK] Execução permitida: auditoria.sh
+[2026-02-25 23:25:41] [AUDITORIA] [OK] Execução permitida: check_sistema.sh
+[2026-02-25 23:25:41] [AUDITORIA] [OK] Execução permitida: manutencao.sh
+[2026-02-25 23:25:41] [AUDITORIA] Auditoria finalizada.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-02-25 23:32:47] [AUDITORIA] Iniciando Auditoria de Integridade do Sistema...
+[2026-02-25 23:32:47] [AUDITORIA] [OK] Diretório verificado: /home/ubuntu/Linux-System-Admin/logs
+[2026-02-25 23:32:47] [AUDITORIA] [OK] Diretório verificado: /home/ubuntu/Linux-System-Admin/backups
+[2026-02-25 23:32:47] [AUDITORIA] [OK] Diretório verificado: /home/ubuntu/Linux-System-Admin/scripts
+[2026-02-25 23:32:47] [AUDITORIA] Verificando permissões dos scripts...
+[2026-02-25 23:32:47] [AUDITORIA] [OK] Execução permitida: auditoria.sh
+[2026-02-25 23:32:47] [AUDITORIA] [OK] Execução permitida: check_sistema.sh
+[2026-02-25 23:32:47] [AUDITORIA] [OK] Execução permitida: manutencao.sh
+[2026-02-25 23:32:47] [AUDITORIA] Auditoria finalizada.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+----------------------------------------------------
+[2026-02-25 23:32:47] Iniciando verificação de rotina (Framework Mode)...
+[2026-02-25 23:32:47] [OK] Disco operando em níveis normais: 37%
+[2026-02-25 23:32:47] [OK] Conectividade com 8.8.8.8 confirmada.
+[2026-02-25 23:32:47] Monitoramento finalizado.
+----------------------------------------------------
