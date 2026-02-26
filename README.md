@@ -1,24 +1,49 @@
-# Bash Automation Kit: Framework de Manutenção e Monitoramento
+# 🛠️ Bash Automation Kit: System Maintenance & Monitor
 
-Um ecossistema modular de scripts Bash projetado para automatizar tarefas críticas de administração de sistemas Linux.
+[![Linux](https://img.shields.io/badge/OS-Linux-orange.svg?logo=linux)](https://www.linux.org/)
+[![AWS](https://img.shields.io/badge/Cloud-AWS_EC2-232F3E?logo=amazon-aws)](https://aws.amazon.com/)
+[![Shell Script](https://img.shields.io/badge/Script-Bash-4EAA25?logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
 
-## 🚀 Funcionalidades
-- **Monitoramento:** Checagem de saúde de disco e conectividade de rede.
-- **Manutenção:** Limpeza automatizada de logs e backups antigos com base em retenção configurável.
-- **Auditoria:** Verificação de integridade de diretórios e permissões do sistema.
-- **Configuração Centralizada:** Gerenciamento de caminhos e limites via `settings.conf`.
-
-## 📁 Estrutura do Projeto
-- `scripts/`: Motores de execução (.sh).
-- `config/`: Arquivos de configuração e parâmetros.
-- `logs/`: Histórico detalhado de todas as execuções (Auditoria).
-- `backups/`: Destino de arquivos organizados.
-
-## 🛠️ Como Usar
-1. Configure seus caminhos e limites em `config/settings.conf`.
-2. Dê permissão de execução: `chmod +x scripts/*.sh`.
-3. Execute a auditoria inicial: `./scripts/auditoria.sh`.
-4. Monitore seu sistema: `./scripts/check_sistema.sh`.
+Framework modular desenvolvido para automação de rotinas de administração de sistemas (SysAdmin). O projeto simula um ambiente real de monitoramento de servidores hospedados na nuvem.
 
 ---
-*Projeto desenvolvido durante a Imersão SysAdmin 2026.*
+
+## 🚀 Funcionalidades Principais
+
+| Módulo | Descrição |
+| :--- | :--- |
+| **🔍 Auditoria** | Verifica permissões de arquivos críticos e usuários do sistema. |
+| **📈 Monitoramento** | Coleta métricas de CPU, Memória e uso de Disco. |
+| **📜 Gestão de Logs** | Centraliza registros com timestamps para análise posterior. |
+| **📦 Backup** | Automação de cópias de segurança de diretórios de configuração. |
+
+---
+
+## 📂 Estrutura do Repositório
+
+* `scripts/`: Contém os executáveis `.sh` de monitoramento e auditoria.
+* `config/`: Arquivos de configuração e definição de variáveis.
+* `logs/`: Histórico de execuções gerado automaticamente.
+* `backups/`: Destino das cópias de segurança realizadas pelo sistema.
+
+---
+
+## 📸 Demonstração
+
+*https://github.com/igor-it-portfolio/bash-maintenance-monitor/tree/main/img*
+
+---
+
+## 🛠️ Tecnologias e Ferramentas
+- **Linguagem:** Bash Script
+- **Infraestrutura:** AWS (Instância EC2 Ubuntu)
+- **Versionamento:** Git & GitHub
+
+---
+
+## ⚙️ Como Executar
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/igor-it-portfolio/bash-maintenance-monitor.git](https://github.com/igor-it-portfolio/bash-maintenance-monitor.git)
+
+Desenvolvido por Igor Pantoja CLOUD Infra, SystemAdm
