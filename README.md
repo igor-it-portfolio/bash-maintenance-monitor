@@ -30,7 +30,7 @@ Framework modular desenvolvido para automação de rotinas de administração de
 
 ## 📸 Demonstração
 
-*https://github.com/igor-it-portfolio/bash-maintenance-monitor/tree/main/img*
+*![Estrutura do Projeto](./img/home%20projeto.png)*
 
 ---
 
